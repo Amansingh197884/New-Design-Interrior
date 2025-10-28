@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+          font-family: "Roboto", sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #161616;
+    /* background-position: top !important; */
+    background-image: url(Image/slider_bg.png);
+}
+body{
+    overflow-x: hidden;
+}
+:root {
+    --white-show: #fff;
+    --green-show: #345e42;
+    --orange-show: #ff911b;
+    --gray-show: #5c5c5c;
+    --charblack-show: #2e2e2e;
+    --pg-show: #bcbcbc;
+    
+}
+
+font {
+      font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+    font-family: "Marcellus", serif;
+  font-weight: 400;
+}
+.nav-link{
+    color: var(--white-show) !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    transition: color 0.3s ease;
+
+}
+.btn-new{
+    background-color: var(--orange-show) !important;
+    color: var(--white-show) !important;
+    padding: 10px 30px !important;
+    border-radius: 3px;
+    border: none !important;
+}
+.logo{
+    width: 200px;
+}
+.logo img{
+    width: 100%;
+    object-fit: contain;
+}
+.section {
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 8%;  
+    gap: 50px;
+    position: relative;
+}
+.section_page{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    padding: 0 8% !important;
+}
+
+.btn-new {
+    background-color: var(--orange-show);
+    color: white !important;
+    padding: 10px 30px !important;
+    border-radius: 3px;
+}
+.btn-neww{
+      height: 60px !important;
+    width: 200px;
+    border: none;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    cursor: pointer;
+    background-color: var(--orange-show);
+    color:var(--white-show);
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: all 0.6s;
+    box-shadow: 4px 4px 3px #272727dd, inset 4px 4px 25px #ff7403dd;
+}
+.After_effect::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -120%;
+    width: 20px;
+    height: 200%;
+    background-color: #fff;
+    filter: blur(20px);
+    /* z-index: -1; */
+    transform: rotate(30deg);
+    transition: 0.6;
+}
+.After_effect:hover {
+    left: 150%;
+   transform: rotate(30deg) translateY(-80px);
+    transition: 0.6s;
+}
+
+.section_page img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.section_title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    /* text-align: center; */
+    /* color: var(--white-show); */
+    gap: 30px;
+}
+.section_title h1{
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 6rem;
+    color: var(--white-show);
+  font-family: "Marcellus", serif;
+}
+.section_title h2{
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    color: #ff8400b8;
+    text-shadow: 1.4px 1.4px 2px var(--white-show);
+  font-family: "Marcellus", serif;
+}
+.section_title p{
+    font-size: 18px;
+    color: var(--pg-show);
+    font-weight: 500;
+    line-height: 2rem;
+        font-weight: 300;
+
+}
+
+
+.hero-wrapper {
+    min-height: 100vh;
+    background-image: url(Image/slider_bg.png);
+    background-position-y: bottom !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding: 8px 8%;
+}
+.hero_title{
+    height: 420px;
+    /* width: 50%; */
+    position: relative;
+    padding: 0;
+  
+}
+.hero_title h1{
+line-height: 5rem;
+}
+
+
+#nav-small {
+    gap: 20px;
+}
+
+.btn-new {}
